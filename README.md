@@ -18,16 +18,10 @@ Raittz and adapted to Python by Diogo de J. S. Machado.
 
 ## Installation
 
-To install the package, clone this repository and use `pip` for installation:
+To install the package, use `pip`:
 
 ```sh
 pip install gabits
-```
-or
-```sh
-git clone https://github.com/diogomachado-bioinfo/gabits.git
-cd gabits
-pip install .
 ```
 
 ## Usage
