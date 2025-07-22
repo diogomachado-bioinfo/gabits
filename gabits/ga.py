@@ -159,6 +159,6 @@ def randipow(xmax, xpow, n, m):
     powered_rand_nums = rand_nums ** xpow
     
     # Multiply by xmax and convert to integers truncated towards zero
-    mret = np.int_(xmax * powered_rand_nums)
+    mret = np.int_((xmax + 1) * powered_rand_nums)
     
     return mret
